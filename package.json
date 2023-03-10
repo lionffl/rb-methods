@@ -1,6 +1,6 @@
 {
   "name": "rb-methods",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "A package that provides functions based on ruby language methods by adding them to Array, String and Number prototypes.",
   "main": "index.js",
   "scripts": {
