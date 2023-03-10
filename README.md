@@ -42,3 +42,7 @@ console.log(one.isOdd)
 console.log(foo.first)
 // output: "f"
 ```
+
+## Disclaimer
+
+Be aware that modifying built-in JavaScript objects like strings, arrays etc it is not considered a good practice. Use it at your own risk.
