@@ -6,7 +6,7 @@
 
 ## Usage
 
-`import 'rb-methods'` or `require('rb-methods)` 
+`import 'rb-methods'` or `require('rb-methods')` 
 
 Examples:
 
@@ -17,6 +17,8 @@ const numbers = [1, 4, 5, 6]
 const foo = "foo"
 const one = 1
 const two = 2
+const phrase = "this is a phrase"
+const seven = 7
 
 const max = numbers.max
 console.log(max)
@@ -41,6 +43,19 @@ console.log(one.isOdd)
 
 console.log(foo.first)
 // output: "f"
+
+console.log(seven.isPrime)
+// output: true
+
+console.log(one.isPrime)
+// output: undefined
+
+console.log(phrase.capitalize)
+// output: This Is A Phrase
+
+console.log(numbers.empty)
+// output: false
+
 ```
 
 ## Disclaimer
